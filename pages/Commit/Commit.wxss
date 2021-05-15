@@ -1,0 +1,43 @@
+/* pages/Commit/Commit.wxss */
+page{
+  background-color: #EFEFEF;
+}
+
+.pictureFB{
+  margin-top: 0rpx;
+  width: 750rpx;
+  height: 500rpx;
+  border-radius: 10rpx;
+}
+
+.textarea{
+  width: 100%;
+  background-color: #fff;
+}
+
+.textinput{
+  width: 96%;
+  height: 430rpx;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 42rpx;
+  font-family: KaiTi;
+}
+
+.click{
+  width: 84%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 10rpx;
+  margin: auto;
+  margin-top: 70rpx;
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: #80bfff;
+  text-align: center;
+  color: white;
+  font-size: 50rpx;
+  font-family: KaiTi;
+}

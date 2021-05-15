@@ -13,6 +13,7 @@
     "van-popup": "@vant/weapp/popup/index"
   },
   "pages":[
+    "pages/SignIn/SignIn",
     "pages/wxml/index",
     "pages/About/About",
     "pages/BottomMenu/BottomMenu",

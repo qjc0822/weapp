@@ -1,0 +1,8 @@
+<!--pages/Commit/Commit.wxml-->
+<view>
+  <image class="pictureFB" src="/images/发布页面.png"></image>
+</view>
+<view class='textarea'>
+   <textarea placeholder="发布一条失物招领吧~" placeholder-style="color:#888888; font-size:38rpx;" class='textinput' maxlength='-1' bindinput ="bindTextAreaBlur"></textarea>
+</view>
+<view id='btn' class='click' bindtap='send'>发 送</view>
