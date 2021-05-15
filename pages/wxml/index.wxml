@@ -1,0 +1,35 @@
+<!--pages/wxml/index.wxml-->
+<template name="Unitblock">
+  <van-cell title="{{info}}" value="more" title-class="van-ellipsis-custom" is-link>
+    <van-icon slot="icon" name="chat-o" size="50rpx" color="#ffccff">
+    </van-icon>
+  </van-cell>
+</template>
+
+
+
+
+<van-nav-bar title="Hall" left-text="Back" fixed
+left-arrow custom-class="navbar" placeholder />
+<view class="add-wrap">
+  <van-icon name="add" size="100rpx" color="#66ccff"/>
+  <van-icon name="bars" size="100rpx" color="#66ccff" bind:click="showmenu"/>
+</view>
+<van-popup show="{{showmenu}}" position="left" bind:close="onclose" custom-class="menu" closeable>
+  <view class="userAvatar">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <van-cell-group>
+    <van-cell title="About me" is-link title-class="van-ellipsis-custom" icon="user-o" link-type="navigateTo" url="/pages/About/About" />
+    <van-cell title="Settings" is-link title-class="van-ellipsis-custom" icon="setting-o" />
+    <van-cell title="Search" is-link title-class="van-ellipsis-custom" icon="search" />
+  </van-cell-group>
+</van-popup>
+<text class="subtitle">Main</text>
+<van-transition name="fade-down" duration="{{ {enter:300,leave:1000} }}" custom-class="block">
+  <van-cell-group>
+    <block wx:for="{{dataArray}}">
+      <template is="Unitblock" data="{{...item}}"></template>
+    </block>
+  </van-cell-group>
+</van-transition>

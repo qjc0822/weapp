@@ -1,0 +1,6 @@
+<!--pages/BottomMenu/BottomMenu.wxml-->
+<view class='bottomrow'>
+  <view class='centerimg' bindtap="Publish">
+    <van-icon name="add-square" size="100rpx"></van-icon>
+  </view>
+</view>

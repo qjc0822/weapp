@@ -1,0 +1,55 @@
+<!--pages/About/About.wxml-->
+<!--scroll-view为可滚动视图-->
+<scroll-view class='scbg' scroll-y="true">
+  <view class='personalInf'>
+    <view class='deco'>
+      <open-data class='ava' type="userAvatarUrl"></open-data>
+    </view>
+    <open-data class='nn' type="userNickName"></open-data>
+  </view>
+  <view>
+    <view class="deco1">
+      <text class="publish">我 的 发 布:{{num}}</text>
+    </view>
+  </view>
+  <view class='box'>
+    <view class='secondblock'>
+      <text class='content'>{{content}}</text>
+      <view class="tel">
+        <text class="showtime">{{timestamp}}</text>
+      </view>
+    </view>
+    <view class='thirdblock'>
+      <view class='combination'>
+      </view>
+      <view class='del' bindtap="Delete">删 除</view>
+    </view>
+  </view>
+  <view class='box'>
+    <view class='secondblock'>
+      <text class='content'>{{content}}</text>
+      <view class="tel">
+        <text class="showtime">{{timestamp}}</text>
+      </view>
+    </view>
+    <view class='thirdblock'>
+      <view class='combination'>
+      </view>
+      <view class='del' bindtap="Delete">删 除</view>
+    </view>
+  </view>
+  <view class='box'>
+    <view class='secondblock'>
+      <text class='content'>{{content}}</text>
+      <view class="tel">
+        <text class="showtime">{{timestamp}}</text>
+      </view>
+    </view>
+    <view class='thirdblock'>
+      <view class='combination'>
+      </view>
+      <view class='del' bindtap="Delete">删 除</view>
+    </view>
+  </view>
+</scroll-view>
+<include src='/pages/BottomMenu/BottomMenu' />

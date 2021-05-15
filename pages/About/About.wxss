@@ -1,0 +1,166 @@
+/* pages/About/About.wxss */
+@import "/pages/BottomMenu/BottomMenu";
+page {
+  background-color: #efefef;
+}
+
+.personalInf {
+  width: 100%;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  margin-right: 0rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 20rpx solid #efefef;
+}
+
+.scbg {
+  background-color: #efefef;
+  widows: 100%;
+  left: 0rpx;
+  right: 0rpx;
+  top: 0rpx;
+  bottom: 9%;
+  position: absolute;
+}
+
+.deco {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 50rpx;
+  border-radius: 10rpx;
+  border: 3px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ava {
+  margin-top: 10rpx;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.nn {
+  margin-top: 40rpx;
+  font-size: 45rpx;
+  color: black;
+  padding-bottom: 40rpx;
+  font-family: KaiTi;
+}
+
+.deco1{
+  width: 710rpx;
+  height: 50rpx;
+  margin: auto;
+  border-radius: 10rpx;
+  border: 3px solid #66b1ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#66ccff;
+}
+
+.publish{
+  font-family: KaiTi;
+  font-size: 46rpx;
+}
+
+
+.box {
+  margin-top: 20rpx;
+  width: 100%;
+  background-color: white;
+  padding-top: 30rpx;
+  border-bottom: 20rpx solid #efefef;
+}
+
+.firstblock {
+  height: 150rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.person {
+  width: 75%;
+  height: 130rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10rpx;
+  font-size: 40rpx;
+  flex-direction: row;
+}
+
+.tel {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20rpx;
+  flex-direction: row;
+}
+
+.showname {
+  font-size: 34rpx;
+  color: #3f51b5;
+  font-family: PingFangSC-regular;
+  font-weight: bold;
+}
+
+.showtime {
+  font-size: 25rpx;
+  color: #5e5d5d;
+  font-family: PingFangSC-regular;
+}
+
+.secondblock {
+  margin-top: 10rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 20rpx;
+  border-bottom: 5rpx solid #bbb;
+}
+
+.content {
+  font-size: 29rpx;
+  color: #101010;
+}
+
+.thirdblock {
+  height: 100rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.combination{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.del{
+  margin-top: 25rpx;
+  margin-right: 20rpx;
+  width: 150rpx;
+  height: 50rpx;
+  border-radius: 10rpx;
+  background-color: #E51C23;
+  font-size: 35rpx;
+  font-family: KaiTi;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 50rpx;
+}
