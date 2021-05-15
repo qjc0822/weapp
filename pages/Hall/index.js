@@ -36,6 +36,11 @@ Page({
   showmenu(){
     this.setData({ showmenu:true })
   },
+  toNewPost(){
+    wx.navigateTo({
+      url: '../Commit/Commit',
+    })
+  },
   onclose(){
     this.setData({ showmenu:false })
   },

@@ -41,7 +41,7 @@ Page({
       })
     } else {
       wx.redirectTo({
-        url: "../About/About"
+        url: "../Hall/index"
       })
       // wx.request({
       //   url: getApp().globalData.server + '/API/Login/phone_login',

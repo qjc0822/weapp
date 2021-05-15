@@ -12,7 +12,7 @@
 <van-nav-bar title="Hall" left-text="Back" fixed
 left-arrow custom-class="navbar" placeholder />
 <view class="add-wrap">
-  <van-icon name="add" size="100rpx" color="#66ccff"/>
+  <van-icon name="add" size="100rpx" color="#66ccff" bind:click="toNewPost"/>
   <van-icon name="bars" size="100rpx" color="#66ccff" bind:click="showmenu"/>
 </view>
 <van-popup show="{{showmenu}}" position="left" bind:close="onclose" custom-class="menu" closeable>

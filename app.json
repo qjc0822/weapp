@@ -14,7 +14,7 @@
   },
   "pages":[
     "pages/SignIn/SignIn",
-    "pages/wxml/index",
+    "pages/Hall/index",
     "pages/About/About",
     "pages/BottomMenu/BottomMenu",
     "pages/index/index",
