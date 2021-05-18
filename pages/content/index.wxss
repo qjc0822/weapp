@@ -1,0 +1,4 @@
+/* pages/content/index.wxss */
+.custom{
+  margin: 40rpx;
+}

@@ -1,7 +1,7 @@
 <!--pages/wxml/index.wxml-->
 <template name="Unitblock">
-  <van-cell title="{{info}}" value="more" title-class="van-ellipsis-custom" is-link>
-    <van-icon slot="icon" name="chat-o" size="50rpx" color="#ffccff">
+  <van-cell title="{{info}}" value="more" title-class="van-ellipsis-custom" is-link link-type="navigateTo" url="/pages/content/index">
+    <van-icon slot="icon" name="chat-o" size="50rpx" color="#ffccff"> 
     </van-icon>
   </van-cell>
 </template>

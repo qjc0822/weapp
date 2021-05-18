@@ -1,0 +1,11 @@
+<!--pages/content/index.wxml-->
+<van-nav-bar title="Detail" left-text="Back" fixed
+left-arrow custom-class="navbar" placeholder />
+<van-panel title="Here is a normal title" use-footer-slot>
+  <view slot="footer">
+    footer
+  </view>
+  <view class="custom">
+    this is the content and content can be long or short
+  </view>
+</van-panel>

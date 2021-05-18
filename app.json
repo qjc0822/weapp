@@ -10,11 +10,14 @@
     "van-sticky": "@vant/weapp/sticky/index",
     "van-nav-bar": "@vant/weapp/nav-bar/index",
     "van-image": "@vant/weapp/image/index",
-    "van-popup": "@vant/weapp/popup/index"
+    "van-popup": "@vant/weapp/popup/index",
+    "van-panel": "@vant/weapp/panel/index"
   },
   "pages":[
+    
     "pages/SignIn/SignIn",
     "pages/Hall/index",
+    "pages/content/index",
     "pages/About/About",
     "pages/BottomMenu/BottomMenu",
     "pages/index/index",
