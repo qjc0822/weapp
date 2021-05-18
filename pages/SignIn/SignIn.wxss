@@ -1,0 +1,88 @@
+/* pages/SignIn/SignIn.wxss */
+page {
+  left: 0rpx;
+  right: 0rpx;
+  background-color: white;
+}
+
+.pictureDL{
+  margin-top: 0rpx;
+  width: 750rpx;
+  height: 500rpx;
+  border-radius: 10rpx;
+}
+
+.background{
+  margin-top: 0rpx;
+}
+
+.first {
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f2f2f2;
+}
+
+.plas {
+  font-size: 38rpx;
+  color: #CCCCCC;
+  font-family: KaiTi;
+}
+
+.inputs {
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #000;
+  margin: auto;
+  margin-left: 20rpx;
+  width: 100%;
+}
+
+.second {
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f2f2f2;
+}
+
+.click {
+  width: auto;
+  height: auto;
+  line-height: 50rpx;
+  margin: auto;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #80bfff;
+  text-align: center;
+  font-size: 50rpx;
+  font-family: KaiTi;
+}
+
+.cha {
+  width: 90%;
+  height: 50rpx;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.no {
+  color: black;
+  font-size: 34rpx;
+  margin-left: 15rpx;
+  font-family: KaiTi;
+}

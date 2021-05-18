@@ -1,0 +1,6 @@
+<!--pages/BottomMenu/BottomMenu.wxml-->
+<view class='bottomrow'>
+  <view class='centerimg' bindtap="Publish">
+    <image class='bottomImg' src='/images/add.png'></image>
+  </view>
+</view>
