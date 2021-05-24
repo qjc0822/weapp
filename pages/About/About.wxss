@@ -145,12 +145,6 @@ page {
   justify-content: space-between;
 }
 
-.combination{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 .del{
   margin-top: 25rpx;
   margin-right: 20rpx;
